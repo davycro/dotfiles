@@ -1,10 +1,11 @@
+export PS1="\u@\h\w: "
+parse_git_branch() {
+	git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+
 if [[ `whoami` == "root" ]]; then
   export PS1="# "
 else
-  export PS1="$ "
+  export PS1="\w\$(parse_git_branch) $ "
 fi
 
-export HISTCONTROL="ignoredups"
-
-# disable less history file
-export LESSHISTFILE="-"

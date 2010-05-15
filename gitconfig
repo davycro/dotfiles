@@ -1,22 +1,11 @@
 [user]
-	name = Joshua Peek
-	email = josh@joshpeek.com
+	name = David Crockett
+	email = davy@davcro.com
 [github]
-	user = josh
+	user = davcro
 [core]
-	excludesfile = /Users/josh/.gitignore
-[alias]
-	co = checkout
-	ct = checkout -t
-	ci = commit -v
-	ca = commit -av
-	st = status
-	up = !git-pull-with-hooks
-	track = !git-track
-	prune-all = !git-prune-all
-	fetch-all = !git-fetch-all
-	maintenance = !git-maintenance
-	pull-auto = !git checkout master && git reset --hard && git pull && git maintenance
+	excludesfile = /Users/david/.gitignore
+	editor = mate -w
 [apply]
 	whitespace = nowarn
 [branch]
@@ -25,5 +14,3 @@
 	branch = auto
 	diff = auto
 	status = auto
-[push]
-	default = tracking

@@ -13,3 +13,18 @@ def time(times = 1)
   Benchmark.bm { |x| x.report { times.times { ret = yield } } }
   ret
 end
+
+
+# Easily print methods local to an object's class
+class Object
+  def local_methods
+    (methods - Object.instance_methods).sort
+  end
+end
+
+
+# copy a string to the clipboard
+def pbcopy(string)
+  `echo "#{string}" | pbcopy`
+  string
+end
