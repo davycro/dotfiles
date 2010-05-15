@@ -14,3 +14,13 @@
 	branch = auto
 	diff = auto
 	status = auto
+[alias]
+  c = commit -m
+  a = add
+  di = diff
+  pl = pull
+  ps = push
+  plre = pull --rebase
+  st = status
+  ci = commit
+  ca = commit --amend
