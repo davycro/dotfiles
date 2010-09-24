@@ -1,6 +1,6 @@
 [user]
-	name = David Crockett
-	email = davy@davcro.com
+	name = davcro
+	email = davcro@me.com
 [github]
 	user = davcro
 [core]
@@ -16,11 +16,10 @@
 	status = auto
 [alias]
   c = commit -m
+  ca = commit -am
+  co = checkout
   a = add
   di = diff
   pl = pull
   ps = push
-  plre = pull --rebase
   st = status
-  ci = commit
-  ca = commit --amend
