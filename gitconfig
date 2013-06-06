@@ -1,11 +1,12 @@
 [user]
-	name = davcro
-	email = davcro@me.com
+	name = davycro
+	email = me@davecro.com
 [github]
-	user = davcro
+	user = davycro
 [core]
 	excludesfile = /Users/david/.gitignore
-	editor = mate -w
+	editor = subl 
+	quotepath = false
 [apply]
 	whitespace = nowarn
 [branch]
@@ -23,3 +24,5 @@
   pl = pull
   ps = push
   st = status
+  br = branch
+

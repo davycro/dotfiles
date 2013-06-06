@@ -6,7 +6,4 @@ fi
 
 # ruby
 export RUBYOPT="-Ilib -Itest"
-
-export CDPATH=~:/Volumes:/Volumes/fatboy
-
-export EDITOR="mate -w"
+export EDITOR="subl"

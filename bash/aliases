@@ -3,14 +3,13 @@ alias ls='ls -FG'
 export LSCOLORS=ExGxFxdxCxDxDxaccxaeex
 
 # Rails
-alias ss='./script/server'
-alias sc='./script/console'
 
 # MySQL
-alias mysql_server='/usr/local/Cellar/mysql/5.1.43/share/mysql/mysql.server'
 
 # Git
 alias g="git"
 
 # MongoDB
-alias mongo_local='mongod run --config /usr/local/Cellar/mongodb/1.6.2-x86_64/mongod.conf'
+
+# Working Directorys
+alias jj="cd ~/Sites/efar_dispatch"
